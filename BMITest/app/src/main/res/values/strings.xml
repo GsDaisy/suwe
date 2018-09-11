@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BMITest</string>
+    <string name="title">BMI</string>
+    <string name="weight_hint">체중(kg)</string>
+    <string name="height_hint">키(cm)</string>
+    <string name="result_but">결과</string>
+    <string name="text_bmi">BMI 지수 : </string>
+    <string name="text_result">결과 : </string>
+</resources>

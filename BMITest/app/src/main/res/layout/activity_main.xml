@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="s2017s12.kr.hs.mirim.bmitest.MainActivity">
+
+    <TextView
+        android:text="@string/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="18pt"
+        />
+
+    <EditText
+        android:id="@+id/weight_input"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:hint="@string/weight_hint"
+        />
+
+    <EditText
+        android:id="@+id/height_input"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:hint="@string/height_hint"
+        />
+
+    <Button
+        android:id="@+id/but_result"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/result_but"
+        />
+
+
+    <TextView
+        android:id="@+id/text_bmi"
+        android:textSize="12pt"
+        android:textColor="#ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_bmi"
+        />
+
+
+    <TextView
+        android:id="@+id/text_result"
+        android:textSize="12pt"
+        android:textColor="#ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_result"
+        />
+
+
+
+</LinearLayout>

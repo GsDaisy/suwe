@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="s2017s12.kr.hs.mirim.myactivities.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+        android:id="@+id/radio_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SecondActivity"
+            android:checked="true"
+        />
+
+        <RadioButton
+            android:id="@+id/radio_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ThirdActivity"
+            />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity 시작"
+        />
+
+
+
+</LinearLayout>

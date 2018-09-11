@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="btn_lbl1">Mirim Information Science</string>
+    <string name="text_str1">오늘은 안드로이드 방과후 시간!</string>
+    <string name="text_title">아래에 이름을 입력 : </string>
+    <string name="edit_hint">여기를 채우세요.</string>
+    <string name="btn_ok">OK</string>
+</resources>

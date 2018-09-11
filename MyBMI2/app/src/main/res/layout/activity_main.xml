@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="s2017s12.kr.hs.mirim.mybmi2.MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI"
+        android:textSize="20sp"
+        android:gravity= "center_horizontal"
+        android:textColor="#c22323"
+        android:layout_margin="20dp"
+        android:shadowColor="#7c000000"
+        android:shadowDx="5.0"
+        android:shadowRadius="5.0"
+        android:shadowDy="5.0"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="* 성명 : "
+            android:gravity="right"
+            android:textSize="20sp"
+            android:layout_marginRight="20dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="* 전화 : "
+            android:gravity="right"
+            android:textSize="20sp"
+            android:layout_marginRight="20dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_phone"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="* 체중 : "
+            android:gravity="right"
+            android:textSize="20sp"
+            android:layout_marginRight="20dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_weight"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp"
+        >
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="* 신장 : "
+            android:gravity="right"
+            android:textSize="20sp"
+            android:layout_marginRight="20dp"
+            />
+
+        <EditText
+            android:id="@+id/edit_height"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="결과 확인"
+            android:layout_marginRight="15dp"
+            />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="취소"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

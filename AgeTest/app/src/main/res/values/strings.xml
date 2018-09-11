@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AgeTest</string>
+    <string name="title">당신의 나이는?</string>
+    <string name="edit_hint">출생년도(4자리)</string>
+    <string name="btn">나이확인</string>
+    <string name="text_result1">나이는 </string>
+    <string name="text_result2">당신은 </string>
+</resources>

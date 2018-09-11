@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="s2017s12.kr.hs.mirim.mybmi2.ResultAtivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI RESULT"
+        android:textSize="20sp"
+        android:gravity= "center_horizontal"
+        android:textColor="#1c10c2"
+        android:layout_margin="20dp"
+        android:shadowColor="#7cd8e486"
+        android:shadowDx="5.0"
+        android:shadowRadius="5.0"
+        android:shadowDy="5.0"
+        />
+
+
+
+    <TextView
+        android:id="@+id/text_result1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/text_result2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="15sp"
+        />
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back"
+        />
+
+
+    <ImageView
+        android:id="@+id/imgv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+
+        />
+
+</LinearLayout>

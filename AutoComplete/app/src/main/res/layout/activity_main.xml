@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="s2017s12.kr.hs.mirim.autocomplete.MainActivity"
+    android:orientation="vertical"
+    >
+
+
+    <AutoCompleteTextView
+        android:id="@+id/auto_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="자동완성 TextView"
+        android:completionThreshold="2"
+        android:hint="자동완성기능 위젯"
+
+        />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/auto_multi_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="멀티자동완성기능 위젯"
+        android:completionHint="멀티자동완성 TextView"
+        android:completionThreshold="2"
+        />
+
+
+
+
+</LinearLayout>

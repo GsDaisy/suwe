@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="s2017s12.kr.hs.mirim.simplecalculator.MainActivity"
+    >
+
+    <!--정수입력1-->
+    <EditText
+        android:id="@+id/edit_input1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:hint="@string/edit1_hint"
+        />
+
+    <!--정수입력2-->
+    <EditText
+        android:id="@+id/edit_input2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        android:hint="@string/edit2_hint"
+        />
+
+    <!--더하기-->
+    <Button
+        android:id="@+id/but_plus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/btn_plus"
+        />
+
+    <!--빼기-->
+    <Button
+        android:id="@+id/but_minus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/btn_minus"
+        />
+
+    <!--곱하기-->
+    <Button
+        android:id="@+id/but_multiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/btn_multiply"
+        />
+
+    <!--나누기-->
+    <Button
+        android:id="@+id/but_divide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/btn_divide"
+        />
+
+    <TextView
+        android:id="@+id/text_result"
+        android:textSize="12pt"
+        android:textColor="#ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_result"
+        />
+</LinearLayout>
