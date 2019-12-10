@@ -39,9 +39,9 @@ public class MainActivity extends AppCompatActivity {
     private ProgressBar mProgressBar;
 
     private Uri mImageUri;
-    private FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
+
     private StorageReference mStorageRef;
-    private DataBaseReference mDatabaseRef=firebaseDatabase.getReference();
+    private DatabaseReference mDatabaseRef;
 
     private StorageTask mUploadTask;
 
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         mTextViewShowUploads.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                openImagesActivity();
             }
         });
     }
@@ -151,5 +151,10 @@ public class MainActivity extends AppCompatActivity {
         } else {
             Toast.makeText(this, "No file selected", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    private void openImagesActivity() {
+        Intent intent = new Intent(this, ImagesActivity.class);
+        startActivity(intent);
     }
 }
